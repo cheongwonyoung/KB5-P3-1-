@@ -19,8 +19,7 @@
     "vue": "^3.2.13",
     "vue-echarts": "^7.0.3",
     "vue-router": "^4.4.5",
-    "vue3-apexcharts": "^1.7.0"
-    "vue-router": "^4.4.5",
+    "vue3-apexcharts": "^1.7.0",
     "webstomp-client": "^1.2.6"
   },
   "devDependencies": {
