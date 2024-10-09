@@ -29,7 +29,6 @@
         },
     };
 </script>
-
 <style>
     body,
     html {

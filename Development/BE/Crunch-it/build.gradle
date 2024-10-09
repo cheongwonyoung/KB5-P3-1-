@@ -137,6 +137,11 @@ dependencies {
     implementation group: 'io.lettuce', name: 'lettuce-core', version: '6.1.9.RELEASE'
 
 
+    // Spring WebSocket
+    implementation 'org.springframework:spring-websocket:5.3.37'
+
+    // Spring Messaging
+    implementation 'org.springframework:spring-messaging:5.3.37'
 }
 
 test {
