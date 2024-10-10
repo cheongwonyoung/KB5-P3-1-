@@ -6,13 +6,13 @@ import java.util.List;
 
 @Getter
 public class Comment {
-    public int comment_id;
-    public int board_id;
-    public int user_id;
+    public int commentId;
+    public int boardId;
+    public int userId;
     public String content;
     public int likes;
-    public String register_date;
-    public String modify_date;
+    public String registerDate;
+    public String modifyDate;
 
     public List<Reply> replyList;
 

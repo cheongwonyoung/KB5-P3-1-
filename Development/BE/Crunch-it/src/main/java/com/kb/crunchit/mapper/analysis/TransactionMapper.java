@@ -20,4 +20,7 @@ public interface TransactionMapper {
     void deleteTransaction(@Param("transactionId") int transactionId, @Param("userId") int userId); // 거래내역 삭제
 
     List<Integer> getAllTransactionIds(int userId); // 특정 user_id의 모든 거래내역 ID를 가져옴
+
+    // 총 지출
+    long calculateTotalOutcome(int userId);
 }

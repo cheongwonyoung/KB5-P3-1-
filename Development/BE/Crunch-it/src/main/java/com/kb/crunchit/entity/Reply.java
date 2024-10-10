@@ -4,11 +4,11 @@ import lombok.Getter;
 
 @Getter
 public class Reply {
-    public int reply_id;
-    public int comment_id;
-    public int user_id;
+    public int replyId;
+    public int commentId;
+    public int userId;
     public String content;
     public int likes;
-    public String register_date;
-    public String modify_date;
+    public String registerDate;
+    public String modifyDate;
 }

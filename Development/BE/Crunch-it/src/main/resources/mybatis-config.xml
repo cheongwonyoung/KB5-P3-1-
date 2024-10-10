@@ -10,6 +10,10 @@
         <typeAlias alias="UserFundResponseDTO" type="com.kb.crunchit.dto.response.UserFundResponseDTO"/>
         <typeAlias alias="StockPriceInfo" type="com.kb.crunchit.entity.StockPriceInfo"/>
         <typeAlias alias="User" type="com.kb.crunchit.entity.User"/>
+        <typeAlias alias="AssetStatistics" type="com.kb.crunchit.entity.AssetStatistics" />
+        <typeAlias alias="InvestHistory" type="com.kb.crunchit.entity.InvestHistory" />
+        <typeAlias alias="Stock" type="com.kb.crunchit.entity.Stock" />
+        <typeAlias alias="Bond" type="com.kb.crunchit.entity.Bond" />
     </typeAliases>
 
     <mappers>

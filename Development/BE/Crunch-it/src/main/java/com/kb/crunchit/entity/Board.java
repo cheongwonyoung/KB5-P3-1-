@@ -6,13 +6,13 @@ import java.util.List;
 
 @Getter
 public class Board {
-    public int board_id;
-    public int writer_id;
+    public int boardId;
+    public int writerId;
     public String title;
     public String content;
     public String category;
-    public String register_date;
-    public String modify_date;
+    public String registerDate;
+    public String modifyDate;
     public int likes;
 
     public List<Comment> commentList;
