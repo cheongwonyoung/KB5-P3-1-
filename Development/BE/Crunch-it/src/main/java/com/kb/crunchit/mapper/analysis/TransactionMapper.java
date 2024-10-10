@@ -4,6 +4,7 @@ import com.kb.crunchit.dto.response.analysis.TransactionResponseDto;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.Date;
 import java.util.List;
 
 @Mapper
@@ -23,4 +24,6 @@ public interface TransactionMapper {
 
     // 총 지출
     long calculateTotalOutcome(int userId);
+
+    Integer getMonthlyOutcome(@Param("userId") Integer userId, @Param("startDate") String startDate, @Param("endDate") String endDate);
 }
